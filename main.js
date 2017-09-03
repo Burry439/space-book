@@ -76,7 +76,7 @@ $('body').on('click', '.post-comment', function(){
 
 //remove post
 $('body').on('click', '.remove', function(){ 
-    var comment = $('.post')
+    var post = $('.post')
     var id = $(this).closest(post).data().id
      for(var i = 0; i < posts.length; i ++){
          
